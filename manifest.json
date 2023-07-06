@@ -1,0 +1,26 @@
+{
+    "manifest_version":2,
+    "name":"VocabBuilder",
+    "version":"0.1",
+    "icons": {
+        "16": "vocab-icon.png",
+        "32": "vocab-icon.png",
+        "48": "vocab-icon.png"
+    },
+    "description": "Helps you lookup word-definition by right clicking on them.",
+    "permissions": [
+        "contextMenus"
+    ],
+    "content_scripts":[
+
+    ],
+    "background":{
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_icon": "vocab-icon.png",
+        "default_popup": "",
+        "default_title": ""
+    }
+}

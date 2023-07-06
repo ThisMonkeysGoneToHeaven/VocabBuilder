@@ -1,0 +1,1 @@
+1 . Developing this extension using Manifest v2, but eventually plan to convert it to Manifest v3.
